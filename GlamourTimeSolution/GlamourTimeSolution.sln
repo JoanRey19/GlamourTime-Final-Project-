@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlamourTime", "GlamourTime\GlamourTime.csproj", "{BE30014C-FA85-4B94-A12A-84D5D1CA2A99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlamourTime.Domain", "GlamourTime.Domain\GlamourTime.Domain.csproj", "{7975651A-8941-47D3-858E-3585E3433257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlamourTime.Infrastructure", "GlamourTime.Infrastructure\GlamourTime.Infrastructure.csproj", "{71E02E61-1D22-436F-BE69-08AF511A9DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlamourTime.Application", "GlamourTime.Application\GlamourTime.Application.csproj", "{59D5B3DA-DFCD-439F-9FBA-C0E7B17A96A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlamourTime.Web", "GlamourTime.Web\GlamourTime.Web.csproj", "{7FFABDD8-7BAB-4F3F-B2E3-A1B3F3EF840C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlamourTime.Api", "GlamourTime.Api\GlamourTime.Api.csproj", "{714ADE63-EF95-4717-8CDD-8DDBB8F3FFC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BE30014C-FA85-4B94-A12A-84D5D1CA2A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BE30014C-FA85-4B94-A12A-84D5D1CA2A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BE30014C-FA85-4B94-A12A-84D5D1CA2A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BE30014C-FA85-4B94-A12A-84D5D1CA2A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7975651A-8941-47D3-858E-3585E3433257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7975651A-8941-47D3-858E-3585E3433257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7975651A-8941-47D3-858E-3585E3433257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7975651A-8941-47D3-858E-3585E3433257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E02E61-1D22-436F-BE69-08AF511A9DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E02E61-1D22-436F-BE69-08AF511A9DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E02E61-1D22-436F-BE69-08AF511A9DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E02E61-1D22-436F-BE69-08AF511A9DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D5B3DA-DFCD-439F-9FBA-C0E7B17A96A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D5B3DA-DFCD-439F-9FBA-C0E7B17A96A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D5B3DA-DFCD-439F-9FBA-C0E7B17A96A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D5B3DA-DFCD-439F-9FBA-C0E7B17A96A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FFABDD8-7BAB-4F3F-B2E3-A1B3F3EF840C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFABDD8-7BAB-4F3F-B2E3-A1B3F3EF840C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFABDD8-7BAB-4F3F-B2E3-A1B3F3EF840C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFABDD8-7BAB-4F3F-B2E3-A1B3F3EF840C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{714ADE63-EF95-4717-8CDD-8DDBB8F3FFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{714ADE63-EF95-4717-8CDD-8DDBB8F3FFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{714ADE63-EF95-4717-8CDD-8DDBB8F3FFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{714ADE63-EF95-4717-8CDD-8DDBB8F3FFC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
