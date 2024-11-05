@@ -1,0 +1,6 @@
+@GlamourTime_Final_Project__HostAddress = http://localhost:5013
+
+GET {{GlamourTime_Final_Project__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
