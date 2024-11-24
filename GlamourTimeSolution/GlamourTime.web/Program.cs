@@ -1,13 +1,8 @@
-using GlamourTime.web.Models;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<GlamourTimeDbContext>(options =>
-        options.UseSqlServer(builder.Configuration.GetConnectionString("Conexion")));
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 
@@ -28,6 +23,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=CustomerController1}/{action=Index}/{id?}");
 
 app.Run();

@@ -1,8 +1,8 @@
-using GlamourTime.web.Models;
+using GlamourTime.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace GlamourTime.web.Controllers
+namespace GlamourTime.Web.Controllers
 {
     public class HomeController : Controller
     {

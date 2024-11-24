@@ -1,4 +1,4 @@
-namespace GlamourTime.web.Models
+namespace GlamourTime.Web.Models
 {
     public class ErrorViewModel
     {
